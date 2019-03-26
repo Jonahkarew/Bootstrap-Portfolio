@@ -1,5 +1,105 @@
+* {
+  margin: 0;
+}
+
 body {
+  background: #cccccc;
+}
+.big-div {
   justify-content: center;
-  width: 960px;
+  max-width: 960px;
   margin: auto;
+  color: #777777;
+  background: #ffffff;
+  border: #dddddd;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+h1 {
+  background: #4aaaa5;
+  border: #cccccc;
+  color: #f8f9fa;
+}
+
+h2{
+  color: #4aaaa5;
+  padding-left: 5%;
+}
+
+hr {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  border-top: 8px solid #4aaaa5;
+  border-top-color: #4aaaa5;
+  background-color: #666666;
+  color: #cccccc;
+  position: absolute;
+  text-align: center;
+  height: 10%;
+  padding: 32px 0 0 0;
+  bottom: 0;
+  position: relative;
+}
+
+
+.top-bar{
+  margin-bottom: 30px;
+}
+
+.portfolio-image{
+  height: 250px;
+  width: 250px;
+}
+.card-img{
+  width: 100%;
+  height: auto;
+}
+
+.card-img-overlay{
+  text-align: center;
+  padding-top: 80%;
+}
+
+.card-row{
+  margin-top: 2%;
+}
+
+#profileImage {
+  height: 250px;
+}
+
+#contact-form{
+ padding-left: 5%;
+}
+
+#nametag {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 4%;
+}
+
+#emailtag {
+  padding-top: 2%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#textareatag {
+  padding-top: 2%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#contactsubmit{
+  margin-top: 4%;
+}
+
+#bottom-card{
+float: left;
+margin-left: 7%;
+margin-top: 2%;
 }
