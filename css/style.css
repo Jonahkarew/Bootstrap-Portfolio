@@ -23,6 +23,10 @@ h2{
   color: #4aaaa5;
   padding-left: 5%;
 }
+h6{
+  margin-top: 0;
+  padding-top: 0;
+}
 
 a{
   text-decoration: none;
@@ -78,6 +82,9 @@ footer {
   margin-top: 2%;
 }
 
+.card-title{
+  margin-bottom: 0.1rem;
+}
 #profileImage {
   height: 250px;
 }
